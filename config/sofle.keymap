@@ -30,7 +30,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        Layer_0 {
             display-name = "default";
 
             // ------------------------------------------------------------------------------------------------------------
@@ -51,7 +51,7 @@
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
-        lower_layer {
+        Layer_1 {
             display-name = "lower";
 
             // TODO: Some binds are waiting for shifted keycode support.
@@ -73,7 +73,7 @@
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
-        raise_layer {
+        Layer_2 {
             display-name = "raise";
 
             // ------------------------------------------------------------------------------------------------------------
